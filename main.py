@@ -108,7 +108,7 @@ if __name__ == '__main__':
                 p = print_error
 
             p('Total buy: :{:.4f}\t| Total sell: {:.4f}\t| Net: {:.4f}\t| {} mins ago'.format(
-                _in, _out, _in - _out, i * (blocks_prior / 10 / 60)
+                _in, _out, _in - _out, i * (blocks_prior / 10)
             ))
 
         print_info('-------------')
